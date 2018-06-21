@@ -25,14 +25,8 @@ More or less, this is a familiar pattern when working on a project with multiple
 ```bash
 git add -A
 git commit -m "message"
-git checkout dev
-git pull origin dev
-git merge --no-ff feature -m "Merged 'feature' into dev"
-git push origin dev
-git checkout master
-git pull origin master
-git merge --no-ff dev -m "Merged 'dev' into master"
-git push origin master
+cascade merge feature dev master
+```
 
 Currently Cascade only supports merging not rebasing, and by default does not fast-forward `--no-ff` the HEAD before applying changes. `--no-ff` adds a commit for the merge, and creates a more readable Git tree. Also Cascade does not support diffing of files or any conflict resolution beyond the Git 3-way auto-merge.
 
