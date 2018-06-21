@@ -1,4 +1,4 @@
-<p align="center"><img width=40% src="hhttps://raw.githubusercontent.com/jasonrhaddix/cascade-cli/master/cc-logo.png"></p>
+<p align="center"><img width=40% src="https://raw.githubusercontent.com/jasonrhaddix/cascade-cli/master/cc-logo.png"></p>
 
 
 ## Overview
