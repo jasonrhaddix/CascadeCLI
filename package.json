@@ -1,0 +1,28 @@
+{
+  "name": "cascade-cli",
+  "version": "0.0.7",
+  "description": "CLI for automated Git merging",
+  "main": "index.js",
+  "author": "Jason R. Haddix <jasonrhaddix@gmail.com",
+  "license": "MIT",
+  "bin": {
+    "cascade": "./index.js",
+    "cc": "./index.js"
+  },
+  "keywords": [
+    "cascade",
+    "cli",
+    "git",
+    "merge"
+  ],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "child-process": "^1.0.2",
+    "child-process-async": "^1.0.1",
+    "clui": "^0.3.6",
+    "command-exists": "^1.2.6",
+    "commander": "^2.15.1",
+    "node-emoji": "^1.8.1",
+    "simple-git": "^1.96.0"
+  }
+}
