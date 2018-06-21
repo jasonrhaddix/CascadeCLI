@@ -1,6 +1,6 @@
 {
   "name": "cascade-cli",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "CLI for automated Git merging",
   "main": "index.js",
   "author": "Jason R. Haddix <jasonrhaddix@gmail.com",
