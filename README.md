@@ -1,4 +1,4 @@
-<p align="center"><img width=40% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-logo.svg"></p>
+<p align="center"><img width=40% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-logo.png"></p>
 
 
 ## Overview
@@ -19,7 +19,7 @@ git merge --no-ff dev -m "Merged 'dev' into master"
 git push origin master
 ```
 
-<p align="left"><img width=60% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-tree.svg"></p> 
+<p align="left"><img width=60% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-tree.png"></p> 
 
 More or less, this is a familiar pattern when working on a project with multiple branches.
 
