@@ -19,6 +19,8 @@ git merge --no-ff dev -m "Merged 'dev' into master"
 git push origin master
 ```
 
+<p align="left"><img width=60% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/tree-logo.svg"></p> 
+
 More or less, this is a familiar pattern when working on a project with multiple branches.
 
 #### A Cascade equivalent
