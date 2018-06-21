@@ -1,4 +1,4 @@
-<p align="center"><img width=40% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-logo.png"></p>
+<p align="center"><img width=40% src="hhttps://raw.githubusercontent.com/jasonrhaddix/cascade-cli/master/cc-logo.png"></p>
 
 
 ## Overview
@@ -19,7 +19,7 @@ git merge --no-ff dev -m "Merged 'dev' into master"
 git push origin master
 ```
 
-<p align="left"><img width=60% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-tree.png"></p> 
+<p align="left"><img width=60% src="https://raw.githubusercontent.com/jasonrhaddix/cascade-cli/master/cc-tree.png"></p> 
 
 More or less, this is a familiar pattern when working on a project with multiple branches.
 
@@ -29,6 +29,8 @@ git add -A
 git commit -m "message"
 cascade merge feature dev master
 ```
+
+Cascade will handle the pulling, merging, and pushing or branches on the repo.
 
 Currently Cascade only supports merging not rebasing, and by default does not fast-forward `--no-ff` the HEAD before applying changes. `--no-ff` adds a commit for the merge, and creates a more readable Git tree. Also Cascade does not support diffing of files or any conflict resolution beyond the Git 3-way auto-merge.
 
