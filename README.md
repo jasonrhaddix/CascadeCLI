@@ -1,11 +1,11 @@
-<p align="center"><img width=20% src="https://github.com/jasonrhaddix/cascase-cli/blob/master/cc-logo.svg"></p>
+<p align="center"><img width=20% src="https://github.com/jasonrhaddix/cascade-cli/blob/master/cc-logo.svg"></p>
 
 
 ## Overview
 Cascade adds Git merge automation via the command line, and seeks to streamline your workflow.
 
 
-#### A common Git workflow pattern:
+#### A common Git workflow pattern
 ```bash
 git add -A
 git commit -m "message"
@@ -43,7 +43,7 @@ npm i -g casade-cli
 cascade merge <fromBranch> <toBranch> <toBranch...>
 ````
 
-#### Example
+## Example
 
 ````bash
 cascade merge feature develop master
