@@ -12,13 +12,13 @@ const run = () => {
  
 	    if(cmdExists) {
 	        if (!dir.directoryExists('.git')) {
-				console.log( messages.reflow.noRepo() );
+				console.log( messages.github.noRepo() );
 				process.exit();
 			} else {
 				const cmd = require('./lib/commands');
 			}
 	    } else {
-	    	console.log( message.reflow.noGit() );
+	    	console.log( message.github.noGit() );
 	    }
 	});
 }

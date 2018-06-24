@@ -1,2 +1,9 @@
+# Folders
+# #####################
 node_modules/
+info/
+
+
+# Files
+# #####################
 package-lock.json
