@@ -47,8 +47,15 @@ By default, when creating a repository, a `master` mainline branch will be creat
 
 ##### Shorthand Example
 ````bash
-cc m feature develop master 
+cc c feature develop master
 ````
+
+
+##### options
+| Flag          | Shorthand    | Description                         |
+| ------------- |:------------:| -----------------------------------:|
+| --no-remote   |              | Does not create a remote repository |
+
 
 
 
