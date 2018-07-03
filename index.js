@@ -9,16 +9,10 @@ const messages = require('./lib/messages');
 
 const run = () => {
 	cmdExists('git', function(err, cmdExists) {
- 
 	    if(cmdExists) {
-	        if (!dir.directoryExists('.git')) {
-				console.log( messages.github.noRepo() );
-				process.exit();
-			} else {
-				const cmd = require('./lib/commands');
-			}
+			const cmd = require('./lib/commands');
 	    } else {
-	    	console.log( message.github.noGit() );
+	    	console.log(message.github.noGit());
 	    }
 	});
 }
