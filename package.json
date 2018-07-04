@@ -11,7 +11,7 @@
   },
   "bin": {
     "cascade": "./index.js",
-    "cc": "./index.js"
+    "cas": "./index.js"
   },
   "keywords": [
     "cascade",
