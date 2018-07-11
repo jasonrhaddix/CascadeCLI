@@ -8,6 +8,8 @@ With Cascade you can:
 * __Create__ a local and remote repo with multiple branches with one command `cascade create <repoName> [branches...]`
 * __Merge__ and push multiple branches with one command `cascade merge <head> <toBranches...>`
 
+_Cascade runs commands on the underlying Git API and requires Git to be installed to work_
+
 
 
 
@@ -57,6 +59,7 @@ cas c my_project develop feature
 | --no-remote   |              | Does not create a remote repository |
 
 
+
 __CREATE NOTES:__ 
 	1. When creating a repository, you MUST select a unique repo name for your account. Cascade will fail if a repository exists with the same name of the one you're trying to create.
 
@@ -83,9 +86,10 @@ git merge --no-ff develop -m "Merged 'develop' into master"
 git push
 ```
 
+More or less, this is a familiar pattern when working on a project with multiple branches.
+
 <p align="left"><img width=60% src="https://raw.githubusercontent.com/jasonrhaddix/cascade-cli/master/cc-tree.png"></p> 
 
-More or less, this is a familiar pattern when working on a project with multiple branches.
 
 
 ##### Cascade equivalent

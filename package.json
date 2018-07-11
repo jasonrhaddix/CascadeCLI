@@ -1,7 +1,7 @@
 {
   "name": "cascade-cli",
   "version": "0.1.2",
-  "description": "CLI for automated Git merging",
+  "description": "CLI for Git automation",
   "main": "index.js",
   "author": "Jason R. Haddix <jasonrhaddix@gmail.com",
   "license": "MIT",
@@ -17,6 +17,7 @@
     "cascade",
     "cli",
     "git",
+    "github",
     "merge"
   ],
   "dependencies": {
