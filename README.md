@@ -8,7 +8,7 @@ With Cascade you can:
 * __Create__ a local and remote repo with multiple branches with one command `cascade create <repoName> [branches...]`
 * __Merge__ and push multiple branches with one command `cascade merge <head> <toBranches...>`
 
-_Cascade runs commands on the underlying Git API and requires Git to be installed to work_
+__NOTE:__ _Cascade runs commands on the underlying Git API and requires Git to be installed to work_
 
 
 
@@ -55,12 +55,13 @@ cas c my_project develop feature
 
 ##### options
 | Flag          | Shorthand    | Description                         |
-| ------------- |:------------:| -----------------------------------:|
+| ------------- | ------------ | ----------------------------------- |
 | --no-remote   |              | Does not create a remote repository |
 
 
 
 __CREATE NOTES:__ 
+
 	1. When creating a repository, you MUST select a unique repo name for your account. Cascade will fail if a repository exists with the same name of the one you're trying to create.
 
 
@@ -119,10 +120,18 @@ cascade merge feature develop master
 cas m feature develop master 
 ````
 
+##### options
+| Flag          | Shorthand    | Description                                |
+| ------------- |:------------:| ------------------------------------------:|
+| --no-push     |              | Does not push commits to remote repository |
+
 
 __MERGE NOTES:__ 
+
 	1. Currently Cascade only supports merging not rebasing, and by default sets the Fast-Forward flag to false `--no-ff`. `--no-ff` creates a more readable Git tree, but will add a commit for the merge.
+
 	2. Cascade does not currently support diffing of files or any conflict resolution beyond the Git 3-way auto-merge.
+
 	3. If a remote repository does not exist, Cascade will continue merge your local branches.
 
 
