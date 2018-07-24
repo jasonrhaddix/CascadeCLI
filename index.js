@@ -7,6 +7,7 @@ const messages = require('./lib/messages');
 
 
 
+
 const run = () => {
 	cmdExists('git', function(err, cmdExists) {
 	    if(cmdExists) {
@@ -16,5 +17,8 @@ const run = () => {
 	    }
 	});
 }
+
+
+
 
 run();
